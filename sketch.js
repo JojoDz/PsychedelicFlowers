@@ -3,13 +3,13 @@ function setup() {
     background(255);
   }
   function fleur(x,y){ 
-    if (isKeyPressed && key == "r") {
+    if (isKeyPressed && key == "R") {
       fill(random(255), 0, 0)
     }
-    else if (isKeyPressed && key == "j") {
+    else if (isKeyPressed && key == "J") {
       fill(255, random(255), 0)
     }
-    else if (isKeyPressed && key == "b") {
+    else if (isKeyPressed && key == "B") {
       fill(0, 0, random(255))
     }
     else {
